@@ -1,16 +1,13 @@
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches: [master]
-    types: [opened, synchronize]
+  on:
+  schedule:
+    - cron: '* 23 * * *'
 
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
-    - name: Check App Health Broken app
+    - name: Check App Health
       uses: jtalk/url-health-check-action@fc2fe2a9ca9c9734d992431b749b79350d771fbb
       with:
         url: https://pokedex-loxt.onrender.com
