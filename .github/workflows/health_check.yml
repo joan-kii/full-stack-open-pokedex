@@ -10,7 +10,7 @@ jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
-    - name: Check App Health
+    - name: Check App Health Broken app
       uses: jtalk/url-health-check-action@fc2fe2a9ca9c9734d992431b749b79350d771fbb
       with:
         url: https://pokedex-loxt.onrender.com
