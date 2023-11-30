@@ -63,7 +63,7 @@ jobs:
             username: joankii
             avatarUrl: https://avatars.githubusercontent.com/u/59319203?v=4
             description: Build failed
-            details: Commit ${{ github.repository }}/${{ github.action }}/${{ github.sha }} by ${{ github.actor }} broke the build :(
+            details: Commit ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }} by ${{ github.actor }} broke the build :(
             text: Build failed
             footer: 'Severity: Error'
             webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
