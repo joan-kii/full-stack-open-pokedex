@@ -1,3 +1,6 @@
+
+### Link to the CI/CD workflow repo 
+[Wiki Memods](https://github.com/joan-kii/wiki-memods)
 # Full Stack open CI/CD
 
 This repository is used for the CI/CD module of the Full stack open course
